@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="list_title">List title</string>
+    <string name="note_text">note text</string>
+    <string name="date">date</string>
+    <string name="search">Поиск</string>
+    <string name="share_menu">поделиться</string>
+</resources>

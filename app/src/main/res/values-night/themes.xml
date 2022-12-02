@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyNotes" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/primary_light</item>
+        <item name="colorSecondaryVariant">@color/primary_light</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >@color/dark_grey</item>
+        <!-- Customize your theme here. -->
+        <item name="preferenceTheme">@style/MyPreferenceStyle</item>
+        <item name="searchViewStyle">@style/MySearchViewStyle</item>
+
+        <item name="android:windowBackground">@color/dark_grey</item>
+
+        <!-- Snackbar style  -->
+        <item name="snackbarStyle">@style/snackbar_style</item>
+        <item name="snackbarButtonStyle">@style/snackbar_button</item>
+        <item name="snackbarTextViewStyle">@style/snackbar_text</item>
+    </style>
+
+    <style name="snackbar_style" parent="@style/Widget.MaterialComponents.Snackbar">
+        <item name="backgroundTint">@color/primary_text</item>
+    </style>
+
+    <style name="snackbar_button" parent="@style/Widget.MaterialComponents.Button.TextButton.Snackbar">
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="snackbar_text" parent="@style/Widget.MaterialComponents.Snackbar.TextView">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <style name="MyTextStyle" parent="TextAppearance.AppCompat">
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="MySearchViewStyle" parent="Widget.AppCompat.Light.SearchView">
+        <item name="searchHintIcon">@null</item>
+    </style>
+
+    <style name="MyPreferenceStyle" parent="@style/PreferenceThemeOverlay">
+        <item name="colorAccent">@color/secondary_text</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Мои заметки</string>
+
+    <!--NotesListFragment start-->
+    <string name="list_title">List title</string>
+    <string name="note_text">note text</string>
+    <string name="date">date</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="floatingActionButtonDescription">floatingActionButton</string>
+    <string name="search">Поиск</string>
+    <string name="settings">настройки</string>
+    <string name="empty_list_text">Список пуст</string>
+    <string name="cancel">Отмена</string>
+    <string name="note_deleted">Запись удалена</string>
+    <!--NotesListFragment end-->
+
+    <!--DetailFragment start-->
+    <string name="hint_title">Заголовок</string>
+    <string name="start_typing">Начните ввод</string>
+    <string name="send_note">Отправить заметку</string>
+    <string name="share_menu">поделиться</string>
+    <string name="select_color">Выберите цвет</string>
+    <string name="note_color_text">цвет заметки</string>
+    <string name="export">Экспортировать как .txt</string>
+    <string name="note_exported">Заметка экспортирована</string>
+    <!--DetailFragment end-->
+
+    <!--PreferencesFragment start-->
+    <string name="text_size">Размер текста</string>
+    <string name="default_string">17</string>
+    <string name="default_value">1</string>
+    <string name="style">Стиль</string>
+    <string name="dark_theme">Тёмная тема</string>
+    <string name="fill_options">Варианты заливки</string>
+
+
+    <string-array name="text_size">
+        <item>маленький</item>
+        <item>средний</item>
+        <item>большой</item>
+    </string-array>
+
+    <string-array name="text_size_value">
+        <item>@string/default_string</item>
+        <item>20</item>
+        <item>23</item>
+    </string-array>
+
+
+    <string-array name="fill_options">
+        <item>не заполнять</item>
+        <item>только панель</item>
+        <item>заполнить всё</item>
+    </string-array>
+
+    <string-array name="fill_options_value">
+        <item>0</item>
+        <item>@string/default_value</item>
+        <item>2</item>
+    </string-array>
+
+
+    <!--PreferencesFragment end-->
+
+</resources>

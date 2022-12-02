@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/colorPicker"
+        android:title="@string/note_color_text"
+        android:icon="@drawable/ic_baseline_palette_24"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/upload"
+        android:icon="@drawable/ic_baseline_file_upload_24"
+        android:title="@string/export"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/share"
+        android:title="@string/share_menu"
+        android:icon="@drawable/ic_baseline_share_24"
+        app:showAsAction="always"/>
+
+</menu>
