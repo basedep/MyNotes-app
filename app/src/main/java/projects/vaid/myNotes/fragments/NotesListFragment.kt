@@ -2,7 +2,6 @@ package projects.vaid.myNotes.fragments
 
 import android.graphics.Color
 import android.os.Bundle
-import android.util.Log
 import android.view.*
 import android.view.animation.AnimationUtils
 import android.view.inputmethod.EditorInfo
@@ -21,7 +20,6 @@ import projects.vaid.myNotes.enums.CustomColors
 import projects.vaid.myNotes.Note
 import projects.vaid.myNotes.R
 import projects.vaid.myNotes.interfaces.Callback
-import java.util.*
 
 
 class NotesListFragment : Fragment(){
@@ -213,7 +211,6 @@ class NotesListFragment : Fragment(){
 
         //имеют ли элементы одинаковые данные
         override fun areContentsTheSame(oldItem: Note, newItem: Note): Boolean {
-            newItem.dateOfEdit = Date()
             return oldItem.title == newItem.title &&
                     oldItem.text == newItem.text &&
                     oldItem.color == newItem.color
